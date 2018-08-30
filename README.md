@@ -1,10 +1,12 @@
 # Compile Sass Files in Visual Studio and Webpack
 
-.NET Core MVC base project with support for Sass using Webpack that includes minification and autoprefixing CSS for production
+.NET Core MVC base project with support for Sass using Webpack that includes minification and autoprefixing CSS for production.
+
+Although this is a Core app, the same principles apply to a ASP.NET MVC app. You would just need to modify the Webpack configuration a little bit to output the CSS file to the `Content` directory.
 
 ## Prerequisites
 
-You will need to have Node and NPM installed.
+You will need to have Node and NPM installed. You will also need [NPM Task Runner](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.NPMTaskRunner).
 
 ## Usage
 
@@ -20,4 +22,6 @@ After installing dependencies, double click `netcore-sass-webpack.sln` to open t
 
 ## Tutorial
 
-Follow the tutorial: [LINK COMING SOON]
+Follow the tutorial: [https://esausilva.com/2018/08/30/compile-sass-files-visual-studio-webpack/](https://esausilva.com/2018/08/30/compile-sass-files-visual-studio-webpack/)
+
+-Esau
