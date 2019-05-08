@@ -12,16 +12,16 @@
   "license": "ISC",
   "devDependencies": {
     "cross-env": "^5.2.0",
-    "css-loader": "^2.1.0",
-    "cssnano": "^4.1.8",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
     "file-loader": "^3.0.1",
-    "mini-css-extract-plugin": "^0.5.0",
-    "node-sass": "^4.11.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "node-sass": "^4.12.0",
     "postcss-loader": "^3.0.0",
-    "postcss-preset-env": "^6.5.0",
+    "postcss-preset-env": "^6.6.0",
     "sass-loader": "^7.1.0",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2"
   },
   "-vs-binding": {
     "BeforeBuild": [
